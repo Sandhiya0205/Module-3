@@ -23,19 +23,19 @@ To write a Python program that matches a string containing an `'a'` followed by 
 ### PROGRAM
 
 ```
-Reg.No: 212223060239
-Name: SANDHIYA G
-
+# Reg.No: 212223060239
+# Name: SANDHIYA G
 import re
-def find_match(s):
-    print("Found a match!" if re.fullmatch(r'[a-z]+@[a-z]+', s) else "Not matched!")
-    
-user_input=input()
-find_match(user_input)
+str=input()
+x=re.search("bb",str)
+if x:
+    print("Found a match!")
+else:
+    print("Not matched!")
 ```
 ### OUTPUT
-<img width="591" height="174" alt="image" src="https://github.com/user-attachments/assets/5cae92ca-5484-4127-b93d-e8edd34dc837" />
+![image](https://github.com/user-attachments/assets/a86ff717-970d-4bc1-9aa5-f3d014255f9b)
+
 
 ### RESULT
-Thus a Python program using regular expressions was executed and implemented successfully.
-
+Thus a Python program that matches a string containing an 'a' followed by two to three 'b' characters using regular expressions was executed and implemented successfully.
