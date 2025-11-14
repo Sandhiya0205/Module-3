@@ -23,7 +23,19 @@ To write a Python program that matches a string containing an `'a'` followed by 
 ### PROGRAM
 
 ```
+Reg.No: 212223060239
+Name: SANDHIYA G
+
+import re
+def find_match(s):
+    print("Found a match!" if re.fullmatch(r'[a-z]+@[a-z]+', s) else "Not matched!")
+    
+user_input=input()
+find_match(user_input)
 ```
 ### OUTPUT
+<img width="591" height="174" alt="image" src="https://github.com/user-attachments/assets/5cae92ca-5484-4127-b93d-e8edd34dc837" />
 
 ### RESULT
+Thus a Python program using regular expressions was executed and implemented successfully.
+
