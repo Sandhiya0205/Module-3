@@ -21,10 +21,17 @@ To write a Python function to accept a string, identify a word to be replaced, a
 ---
 
 ### PROGRAM
-
 ```
+Reg.No: 212223060239
+Name: SANDHIYA G
+
+def splitstring(email):
+    result = email.split("@")
+    print(result)
 ```
 
 ### OUTPUT
+<img width="847" height="219" alt="image" src="https://github.com/user-attachments/assets/9302246b-67e6-476e-9ce4-ab5a26035256" />
 
 ### RESULT
+The program splits the input string at `"@"` and displays the resulting parts as a list.
